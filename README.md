@@ -2,16 +2,14 @@
 Enable JetBrains Rider to work with the Remote iOS Simulator for windows, installed with Visual Studio.
 
 ### Usage:
-Create a new **External tool** in JetBrains Rider:
-
-```Settings --> Tools --> External tools```
 
 - Make sure to have working, established a connection to your mac with the Xamarin Mac Agent 
 - Edit the `Rider.RemoteSimulator.Win.exe.config` file with the connection details for your mac (host name, username and password)
 - Open JetBrains Rider
+- Create a new **External tool**: `Settings --> Tools --> External tools`
 - In **Tools Settings** select the executable `Rider.RemoteSimulator.Win.exe`
 - In **Arguments** insert this: `$ModuleFileDir$`
-- Now in your run configuration for iOS simulator, you can add this external tool in the **Before Launch** settings
+- Now in your run configuration for iOS simulator, you can add this external tool in **Before Launch** settings
 - Debug and enjoy the Remote Simulator :)
 
 ### How it works
