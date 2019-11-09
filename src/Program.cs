@@ -12,29 +12,30 @@ namespace RemoteSimulator
         {
             if (args == null || args.Length == 0)
             {
-                MainLogger.Warn("E' necessario specificare la path della solution per proseguire");
+                MainLogger.Warn("No configuration path specified, Unable to proceed");
+                MainLogger.Warn("Make sure to pass the $ModuleFileDir$ argument when configuring the external tool in Rider!");
                 return;
             }
 
             var baseFolder = args[0];
             var workspace  = Path.Combine(baseFolder, ".idea", "workspace.xml");
 
-            MainLogger.Info("Recupero file workspace: " + workspace);
+            MainLogger.Info("Getting the workspace file: " + workspace);
             if (!File.Exists(workspace))
             {
-                MainLogger.Error("File non trovato, impossibile continuare");
+                MainLogger.Error("File not found, unable to proceed");
                 return;
             }
 
-            MainLogger.Info("Recupero nome simulator dal workspace");
+            MainLogger.Info("Reading simulator name from workspace file");
             var simulatore = WorkSpaceHelper.GetSimulatorName(workspace);
             if (string.IsNullOrEmpty(simulatore))
             {
-                MainLogger.Error($"Impossibile recuperare il simulatore selezionato");
+                MainLogger.Error("Unable to find a suitable simulator");
                 return;
             }
 
-            MainLogger.Info("Simulatore selezionato: " + simulatore);
+            MainLogger.Info("Simulator selected: " + simulatore);
             MacHostHelper.MacHostJob(simulatore);
         }
     }

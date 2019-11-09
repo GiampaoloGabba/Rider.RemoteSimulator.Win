@@ -2,21 +2,20 @@
 
  namespace RemoteSimulator.Models
 {
-
     public class SimCtlResponseModel
     {
-        public List<Devicetype>                 Devicetypes { get; set; }
-        public List<Runtime>                    Runtimes    { get; set; }
-        public Dictionary<string, List<Device>> Devices     { get; set; }
-        public Dictionary<string, Pair>         Pairs       { get; set; }
+        public List<Devicetype> Devicetypes { get; set; }
+        public List<Runtime>    Runtimes    { get; set; }
+        public Dictionary<string, List<Device>> Devices { get; set; }
+        public Dictionary<string, Pair> Pairs { get; set; }
     }
 
     public class Device
     {
-        public string State             { get; set; }
-        public bool   IsAvailable       { get; set; }
-        public string Name              { get; set; }
-        public string Udid              { get; set; }
+        public string State       { get; set; }
+        public bool   IsAvailable { get; set; }
+        public string Name        { get; set; }
+        public string Udid        { get; set; }
         public string AvailabilityError { get; set; }
     }
 

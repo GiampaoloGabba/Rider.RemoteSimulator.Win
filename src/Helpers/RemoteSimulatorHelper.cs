@@ -2,7 +2,7 @@
 
 namespace RemoteSimulator.Helpers
 {
-    public static class RemoteSimumlatorHelper
+    public static class RemoteSimulatorHelper
     {
         public static void OpenSimulator(string uid)
         {
@@ -24,6 +24,7 @@ namespace RemoteSimulator.Helpers
             process.Start();
 
 #if DEBUG
+            //When debugging in IDE we need this to keep the simulator open
             process.WaitForExit();
 #endif
 
