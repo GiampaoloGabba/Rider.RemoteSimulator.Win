@@ -20,3 +20,15 @@ When started, this tool execute these step:
 2) Connects to your mac host with the settings provided in `Rider.RemoteSimulator.Win.exe.config`
 3) Retrieve the simulators list from xcode to get the right UDID for the selected simulator
 4) Launch the Windows Remote Simulator from command line, passing the right UDID
+
+### FAQ:
+
+1) *Why an external tool and not a plugin?*
+
+Well...  currently i dont have time to learn how to develop a plugin for Rider, so i made a simple console application to use as an external tool :)
+
+2) *Whaaat??? A plain password in the .config file?*
+
+Yeah, i know... i know... But see the previous FAQ: i dont have much time right now so i had to do things super-fast. If you dont like this auth method, a pull request will be super-welcome!
+
+
