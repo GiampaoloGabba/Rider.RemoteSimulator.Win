@@ -1,5 +1,5 @@
-## Using JetBrains Rider with the iOS Remote Simulator 
-Enable JetBrains Rider to work with the Remote iOS Simulator for windows, installed with Visual Studio.
+## Connect JetBrains Rider with Xamarin Remoted iOS Simulator 
+Enable JetBrains Rider to work with [Xamarin Remoted iOS Simulator for windows](https://docs.microsoft.com/en-us/xamarin/tools/ios-simulator/), installed with Microsoft Visual Studio.
 
 ### Usage:
 
