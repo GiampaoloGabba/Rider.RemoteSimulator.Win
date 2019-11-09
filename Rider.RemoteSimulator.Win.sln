@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteSimulator", "RemoteSimulator.csproj", "{7250E0A7-D873-42A4-8818-AA78E1CD3E15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rider.RemoteSimulator.Win", "Rider.RemoteSimulator.Win.csproj", "{7250E0A7-D873-42A4-8818-AA78E1CD3E15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

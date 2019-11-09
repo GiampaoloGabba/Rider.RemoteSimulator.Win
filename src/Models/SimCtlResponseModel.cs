@@ -1,6 +1,6 @@
 ﻿﻿using System.Collections.Generic;
 
- namespace RemoteSimulator.Models
+ namespace Rider.RemoteSimulator.Win.Models
 {
     public class SimCtlResponseModel
     {

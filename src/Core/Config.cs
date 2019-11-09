@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace RemoteSimulator.Core
+namespace Rider.RemoteSimulator.Win.Core
 {
     public static class Config
     {

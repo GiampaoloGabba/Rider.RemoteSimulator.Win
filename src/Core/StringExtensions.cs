@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RemoteSimulator.Core
+namespace Rider.RemoteSimulator.Win.Core
 {
     public static class StringExtensions
     {

@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Xml.Linq;
 
-namespace RemoteSimulator.Helpers
+namespace Rider.RemoteSimulator.Win.Helpers
 {
     public static class WorkSpaceHelper
     {

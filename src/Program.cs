@@ -1,8 +1,8 @@
 ﻿using System.IO;
 using NLog;
-using RemoteSimulator.Helpers;
+using Rider.RemoteSimulator.Win.Helpers;
 
-namespace RemoteSimulator
+namespace Rider.RemoteSimulator.Win
 {
     static class Program
     {

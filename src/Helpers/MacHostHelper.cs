@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Linq;
 using Newtonsoft.Json;
-using RemoteSimulator.Core;
-using RemoteSimulator.Models;
 using Renci.SshNet;
 using Renci.SshNet.Common;
+using Rider.RemoteSimulator.Win.Core;
+using Rider.RemoteSimulator.Win.Models;
 
-namespace RemoteSimulator.Helpers
+namespace Rider.RemoteSimulator.Win.Helpers
 {
     public static class MacHostHelper
     {

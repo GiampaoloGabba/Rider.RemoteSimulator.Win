@@ -1,6 +1,6 @@
-﻿using RemoteSimulator.Core;
+﻿using Rider.RemoteSimulator.Win.Core;
 
-namespace RemoteSimulator.Helpers
+namespace Rider.RemoteSimulator.Win.Helpers
 {
     public static class RemoteSimulatorHelper
     {
