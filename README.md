@@ -3,7 +3,7 @@ Enable JetBrains Rider to work with [Xamarin Remoted iOS Simulator for windows](
 
 ### Usage:
 
-- Make sure to have working, established a connection to your mac with the Xamarin Mac Agent 
+- Make sure to a have working, established connection to your mac with the Xamarin Mac Agent 
 - Edit the `Rider.RemoteSimulator.Win.exe.config` file with the connection details for your mac (host name, username and password)
 - Open JetBrains Rider
 - Create a new **External tool**: `Settings --> Tools --> External tools`
