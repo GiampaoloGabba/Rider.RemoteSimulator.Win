@@ -3,7 +3,7 @@ Enable JetBrains Rider to work with [Xamarin Remoted iOS Simulator for windows](
 
 ### Note: 
 This tool has been updated to work with JetBrains Rider 2019.3+.
-If you need to run it on an older version, open [WorkSpaceHelper.cs](https://github.com/GiampaoloGabba/Rider.RemoteSimulator.Win/blob/master/src/Helpers/WorkSpaceHelper.cs) remove the code for the new version, decomment the old code and recompile :)
+If you need to run it on an older version, download the first version.
 
 ### Usage:
 
