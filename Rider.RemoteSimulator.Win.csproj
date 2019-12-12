@@ -70,6 +70,7 @@
     <Content Include="NLog.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="README.md" />
     <None Include="NLog.xsd" />
     <None Include="packages.config" />
   </ItemGroup>
