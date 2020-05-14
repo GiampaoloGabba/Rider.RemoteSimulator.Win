@@ -8,7 +8,7 @@ If you need to run it on an older version, download the first version.
 - Starting from 2020.1 when you change the simulator in the Rider interface, the project model don't get immediatly updated.
 Since this tool relies on that model to get the current emulator this can be annoying but the solution is simple! Just save a random file in the solution (even if you didn't modified it) and the project model get updated!.
 
-To summarize: change your selected simulator -> save a file -> click debud and the right simulator will appear :)
+> To summarize: change your selected simulator -> save a file -> click debud and the right simulator will appear :)
 
 ### Usage:
 
@@ -20,6 +20,8 @@ To summarize: change your selected simulator -> save a file -> click debud and t
 - In **Arguments** insert this: `$ModuleFileDir$`
 - Now in your run configuration for iOS simulator, you can add this external tool in **Before Launch** settings
 - Debug and enjoy the Remote Simulator :)
+
+<img src="https://www.evolutionlab.it/github/rider1.png" width="480">  <img src="https://www.evolutionlab.it/github/rider2.png" width="380">
 
 ### How it works
 
