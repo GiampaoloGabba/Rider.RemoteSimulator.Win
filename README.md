@@ -1,9 +1,14 @@
 ## Connect JetBrains Rider with Xamarin Remoted iOS Simulator 
 Enable JetBrains Rider to work with [Xamarin Remoted iOS Simulator for windows](https://docs.microsoft.com/en-us/xamarin/tools/ios-simulator/), installed with Microsoft Visual Studio.
 
-### Note: 
-This tool has been updated to work with JetBrains Rider 2019.3+.
+### Important Notes: 
+- This tool has been updated to work with JetBrains Rider 2019.3+.
 If you need to run it on an older version, download the first version.
+
+- Starting from 2020.1 when you change the simulator in the Rider interface, the project model don't get immediatly updated.
+Since this tool relies on that model to get the current emulator this can be annoying but the solution is simple! Just save a random file in the solution (even if you didn't modified it) and the project model get updated!.
+
+To summarize: change your selected simulator -> save a file -> click debud and the right simulator will appear :)
 
 ### Usage:
 
