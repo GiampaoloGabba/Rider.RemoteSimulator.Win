@@ -1,6 +1,13 @@
 ## Connect JetBrains Rider with Xamarin Remoted iOS Simulator 
 Enable JetBrains Rider to work with [Xamarin Remoted iOS Simulator for windows](https://docs.microsoft.com/en-us/xamarin/tools/ios-simulator/), installed with Microsoft Visual Studio.
 
+
+## PLEASE READ!
+***Rider 2020.2.4 broken the macro used to get the module folder. If you want to use this external tool, use v2020.2.3***
+
+
+
+
 ### Important Notes: 
 - This tool has been updated to work with JetBrains Rider 2019.3+.
 If you need to run it on an older version, download the first version.
