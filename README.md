@@ -3,7 +3,7 @@ Enable JetBrains Rider to work with [Xamarin Remoted iOS Simulator for windows](
 
 
 ## PLEASE READ!
-***Rider 2020.2.4 broken the macro used to get the module folder. If you want to use this external tool, use v2020.2.3***
+***In Rider 2020.2.4 sometimes the macro used to get the module folder doesnt work. The next EAP 2020.3 seems to fix the issue, but sometimes it also fails. So if you are using these versions and the simulator does not work... you know why :) Version v2020.2.3 works well***
 
 
 
