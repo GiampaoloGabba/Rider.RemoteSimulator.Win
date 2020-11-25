@@ -9,7 +9,7 @@ namespace Rider.RemoteSimulator.Win.Helpers
         {
             var xml = XDocument.Load(workspace);
             var component = xml.Root?.Elements("component").FirstOrDefault(x=>x.Attribute("name")?.Value == "PropertiesComponent");
-            var simulator = component?.Elements("property").FirstOrDefault(x=>x.Attribute("name")?.Value.Contains("XamarinIOSSimulatorKind") == true);
+            var simulator = component?.Elements("property").LastOrDefault(x=>x.Attribute("name")?.Value.Contains("XamarinIOSSimulatorKind") == true);
             return simulator?.Attribute("value")?.Value;
         }
 

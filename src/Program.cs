@@ -18,7 +18,8 @@ namespace Rider.RemoteSimulator.Win
             }
 
             var baseFolder = args[0];
-            var workspace  = Path.Combine(baseFolder, ".idea", "workspace.xml");
+            //fix for latest version of rider that pass ".idea" while previous version dont
+            var workspace  = Path.Combine(baseFolder, baseFolder.EndsWith("\\.idea") ? "" : ".idea", "workspace.xml");
 
             MainLogger.Info("Getting the workspace file: " + workspace);
             if (!File.Exists(workspace))
